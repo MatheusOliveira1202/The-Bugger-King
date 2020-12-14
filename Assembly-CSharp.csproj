@@ -56,6 +56,39 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\MainCharacter.cs" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/T-Gamer/Documents/Projetos/Programming Projects/Unity Projects/The-Bugger-King/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -578,52 +611,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{3A17B9F1-5896-73BF-0ADF-8AC1ECAF05AB}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{D1E8BA4F-C3A2-E11A-CCE9-EA6006680E0E}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{DDF2C539-7735-08F4-31E1-DABA98076C85}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{1C0A155B-37E9-0D5C-8F30-EF87C8C4059D}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{E0BE7942-A82D-5E63-296D-BBB396B46A20}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{4EB91235-0A5E-749A-8983-B5E08955CB59}</Project>
-      <Name>Unity.CollabProxy.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{3E4072FF-3143-2560-6BEC-69EC66064090}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{024F9CDB-11F2-6408-8C9A-3370A1211483}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{9E3A0F26-BF4B-B4E4-F427-2284E75DD4EE}</Project>
-      <Name>Unity.2D.Tilemap.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{5F9A9294-CF70-12B7-9B5B-73F76FF47A0C}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{A92AC64F-4F86-9309-8B80-66457620430A}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

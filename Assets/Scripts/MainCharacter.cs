@@ -7,7 +7,7 @@ public class MainCharacter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        print("teste");
     }
 
     // Update is called once per frame
